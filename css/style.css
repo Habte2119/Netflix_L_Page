@@ -47,7 +47,7 @@ body{
     color: white;
     text-align: center;
     background-size: cover;
-    background-image: url("../asset/images/OIP.jpg");
+    background-image: url("../asset/images/baner_image.jpg");
     padding: 20px;
 }
 .hero-section h1 {
@@ -153,8 +153,7 @@ body{
 .card5{
     background-image: url("../asset/images/poster5.jpg") !important;
     width: 120px;
-    height: 170px; width: 80px;
-    height: 110px;
+    height: 170px;
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat;
