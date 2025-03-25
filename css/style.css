@@ -51,11 +51,13 @@ body{
     padding: 20px;
 }
 .hero-section h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 .hero-section p {
-    font-size: 1.5rem;
+    font-size: 2rem; 
+    font-weight: bold;
+
 }
 .input-group {
     max-width: 500px;
@@ -303,7 +305,7 @@ background-image: url("../asset/images/poster7.jpg") !important;
 }
 
 .footer {
-   background-color: #0f0e0e;
+   background-color: #171111;
     color: #b3b3b3;
     font-size: 14px;
 }
