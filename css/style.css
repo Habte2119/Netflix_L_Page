@@ -112,8 +112,8 @@ body{
 
 .card1{
     background-image: url("../asset/images/poster2.jpg") !important;
-    width: 80px;
-    height: 110px;
+    width: 120px;
+    height: 170px;
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat;
