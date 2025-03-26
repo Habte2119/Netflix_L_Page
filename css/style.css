@@ -304,6 +304,7 @@ background-image: url("../asset/images/poster7.jpg") !important;
     }
     .hero-section p {
         font-size: 1rem; 
+        color: red;
     
     }
 }
