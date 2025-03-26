@@ -50,17 +50,8 @@ body{
     background-image: url("../asset/images/imagez.jpg");
     padding: 20px;
 }
-.hero-section h1 {
-    font-size: 4.5rem;
-    font-weight: bold;
-    font-family: georgia;
-}
-.hero-section p {
-    font-size: 3rem; 
-    font-weight: bold;
-    font-family: georgia;
 
-}
+
 .input-group {
     max-width: 500px;
     display: flex;
@@ -302,6 +293,17 @@ background-image: url("../asset/images/poster7.jpg") !important;
     .input-group .form-control {
         border-radius: 25px;
         width: 100%; 
+
+}
+.hero-section h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: georgia;
+}
+.hero-section p {
+    font-size: 3rem; 
+    font-weight: bold;
+    font-family: georgia;
 
 }
 }
