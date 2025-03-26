@@ -297,7 +297,18 @@ background-image: url("../asset/images/poster7.jpg") !important;
 }
 
 }
-@media (min-width: 677px) {}
+@media (min-width: 677px) {
+
+    .hero-section h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .hero-section p {
+        font-size: 3rem; 
+        font-weight: bold;
+    
+    }
+}
 .hero-section h1 {
     font-size: 4.5rem;
     font-weight: bold;
