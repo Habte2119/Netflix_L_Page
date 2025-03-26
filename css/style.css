@@ -310,11 +310,13 @@ background-image: url("../asset/images/poster7.jpg") !important;
 @media (max-width: 677px) {
 
     .hero-section h1 {
-        font-size: 2rem;
+        font-size: 3rem;
+        font-weight: bold;
     }
     .hero-section p {
-        font-size: 1rem; 
-        color: red;
+        font-size: 2rem;
+        font-weight: bold; 
+       
     
     }
 }
