@@ -295,6 +295,9 @@ background-image: url("../asset/images/poster7.jpg") !important;
         width: 100%; 
 
 }
+
+}
+@media (min-width: 677px) {}
 .hero-section h1 {
     font-size: 4.5rem;
     font-weight: bold;
@@ -306,8 +309,6 @@ background-image: url("../asset/images/poster7.jpg") !important;
     font-family: georgia;
 
 }
-}
-
 .footer {
    background-color: #171111;
     color: #b3b3b3;
