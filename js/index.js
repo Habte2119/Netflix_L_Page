@@ -1,5 +1,5 @@
 $(".oneone").on("click",function(){
-    alert("connected successfully bro!");
+    alert("Sorry, this is not more intactive yet!");
 })
 
 
