@@ -27,7 +27,7 @@
         <p>Ready to watch? Enter your email to create your membership.</p>
         <div class="input-group ">
                 <input type="email" class="form-control col-ms-12 " placeholder="Enter your email" style="border-radius: 20px; ">
-                <button class="btn btn-danger col-ms-12" style="border-radius: 20px;">Get Started</button>
+                <button class="btn btn-danger col-ms-12 oneone" style="border-radius: 20px;">Get Started</button>
         </div>
     </header>
     <h2 style="color: white; margin-bottom: 20px; padding : 20px">Trending Now</h2>
@@ -139,19 +139,43 @@
     <section class="row container-fluid mx-auto align-items-center d-flex flex-row justify-content-center align-items-center text-center reasons-section py-5 faq-section" style="margin: 0 10%;">
         <h2 style="color: white; text-align: left;">Frequently Asked Questions</h2>
         <div class="accordion" id="faqAccordion">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"  style="background-color: rgb(55, 58, 58);color: white;">
-                        What is Netflix?
-                    </button>
-                </h2>
-            </div>
+           
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" style="background-color: rgb(55, 58, 58);color: white;">
+                    <button class="accordion-button wahtis toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: rgb(55, 58, 58); color: white;">
+                        What  is Netflix?
+                    </button>
+                </h2>
+                <div id="answer1" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Netflix is a popular streaming service that allows users to watch a wide variety of TV shows, movies, documentaries, and more on internet-connected devices.                     </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button accordion-button1 toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: rgb(55, 58, 58); color: white;">
                         How much does Netflix cost?
                     </button>
                 </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Netflix has several subscription plans ranging from basic to premium, depending on the features and streaming quality you want. Visit Netflix.com for the latest pricing.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button accordion-button2 toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: rgb(55, 58, 58); color: white;">
+                        How much does Netflix cost?
+                    </button>
+                </h2>
+                <div id="collapseTwo2" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Netflix has several subscription plans ranging from basic to premium, depending on the features and streaming quality you want. Visit Netflix.com for the latest pricing.
+                    </div>
+                </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -234,5 +258,11 @@
     
     </footer>
     
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+
 </body>
 </html>
